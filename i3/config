@@ -22,6 +22,7 @@ exec --no-startup-id compton -b
 exec_always --no-startup-id numlockx on
 exec_always --no-startup-id xinput set-prop 13 324 1
 exec --no-startup-id nm-applet
+exec_always --no-startup-id autotiling
 
 # Menu
 bindsym $mod+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns
